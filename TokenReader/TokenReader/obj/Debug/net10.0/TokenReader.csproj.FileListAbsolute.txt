@@ -1,0 +1,14 @@
+C:\Users\quinz\source\repos\TokenReader\TokenReader\bin\Debug\net10.0\TokenReader.exe
+C:\Users\quinz\source\repos\TokenReader\TokenReader\bin\Debug\net10.0\TokenReader.deps.json
+C:\Users\quinz\source\repos\TokenReader\TokenReader\bin\Debug\net10.0\TokenReader.runtimeconfig.json
+C:\Users\quinz\source\repos\TokenReader\TokenReader\bin\Debug\net10.0\TokenReader.dll
+C:\Users\quinz\source\repos\TokenReader\TokenReader\bin\Debug\net10.0\TokenReader.pdb
+C:\Users\quinz\source\repos\TokenReader\TokenReader\obj\Debug\net10.0\TokenReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quinz\source\repos\TokenReader\TokenReader\obj\Debug\net10.0\TokenReader.AssemblyInfoInputs.cache
+C:\Users\quinz\source\repos\TokenReader\TokenReader\obj\Debug\net10.0\TokenReader.AssemblyInfo.cs
+C:\Users\quinz\source\repos\TokenReader\TokenReader\obj\Debug\net10.0\TokenReader.csproj.CoreCompileInputs.cache
+C:\Users\quinz\source\repos\TokenReader\TokenReader\obj\Debug\net10.0\TokenReader.dll
+C:\Users\quinz\source\repos\TokenReader\TokenReader\obj\Debug\net10.0\refint\TokenReader.dll
+C:\Users\quinz\source\repos\TokenReader\TokenReader\obj\Debug\net10.0\TokenReader.pdb
+C:\Users\quinz\source\repos\TokenReader\TokenReader\obj\Debug\net10.0\TokenReader.genruntimeconfig.cache
+C:\Users\quinz\source\repos\TokenReader\TokenReader\obj\Debug\net10.0\ref\TokenReader.dll
