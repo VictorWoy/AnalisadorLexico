@@ -220,29 +220,46 @@ namespace GeradorTokens
 
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            Console.WriteLine("GERADOR DE TOKENS — Linguagem C-like");
-            Console.WriteLine("Digite o código (encerre com '###' em linha separada):");
-            Console.WriteLine();
-
-            var sb = new StringBuilder();
-            string? linha;
-            while ((linha = Console.ReadLine()) != null && linha.Trim() != "###")
-                sb.AppendLine(linha);
-
-            string fonte = sb.ToString();
-
+            Console.WriteLine("GERADOR DE TOKENS — Linguagem");
+    
+            string fonte = "";
+    
+            if (args.Length > 0)
+            {
+                string caminho = args[0];
+    
+                if (!File.Exists(caminho))
+                {
+                    Console.WriteLine("Arquivo não encontrado.");
+                    return;
+                }
+    
+                fonte = File.ReadAllText(caminho);
+            }
+            else
+            {
+                Console.WriteLine("Digite o código (encerre com '###'):");
+                var sb = new StringBuilder();
+                string? linha;
+    
+                while ((linha = Console.ReadLine()) != null && linha.Trim() != "###")
+                    sb.AppendLine(linha);
+    
+                fonte = sb.ToString();
+            }
+    
             if (string.IsNullOrWhiteSpace(fonte))
             {
                 Console.WriteLine("Nenhum código fornecido.");
                 return;
             }
-
+    
             var analisador = new Analisador();
             analisador.Analisar(fonte);
-
+    
             Console.WriteLine();
             Console.WriteLine(analisador.ObterTabelaSimbolos());
             Console.WriteLine(analisador.ObterListaTokens());
